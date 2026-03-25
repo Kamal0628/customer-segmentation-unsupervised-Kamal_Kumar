@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt # pyright: ignore[reportMissingModuleSource]
 
 def plot_clusters(data, labels, title="Clusters"):
     plt.figure(figsize=(8,6))
@@ -7,4 +7,4 @@ def plot_clusters(data, labels, title="Clusters"):
     plt.xlabel("PCA Component 1")
     plt.ylabel("PCA Component 2")
     plt.colorbar()
-    plt.show()
+    plt.show()              
