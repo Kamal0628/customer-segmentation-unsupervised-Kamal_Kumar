@@ -1,0 +1,37 @@
+customer-segmentation-unsupervised-Kamal Kumar/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_clustering_models.ipynb
+│   ├── 05_model_comparison.ipynb
+│   ├── 06_visualization.ipynb
+│
+├── src/
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── clustering/
+│   │   ├── kmeans.py
+│   │   ├── hierarchical.py
+│   │   ├── dbscan.py
+│   │   ├── gmm.py
+│   ├── evaluation.py
+│   ├── utils.py
+│
+├── results/
+│   ├── cluster_plots/
+│   ├── pca_outputs/
+│   ├── metrics/
+│
+├── reports/
+│   ├── final_report.pdf
+│   ├── presentation.pptx
+│
+├── main.py
+├── requirements.txt
+└── README.md
